@@ -1,4 +1,43 @@
 
+
+# Assignment - React 2
+
+***
+
+## Configuration steps
+
+<details>
+
+* Make a copy of your React 1 repository with review changes applied, make sure to have this README.md present
+
+</details>
+
+## Assignment goal
+
+<details>
+
+The goal of this assignment is to modernize your freshly-completed React project with a proper functional package stack, as well as refactor your pure CSS into a more modern solution in form of styled-components, training your css-in-js skill.
+
+</details>
+
+## Formal requirements
+
+<details>
+
+***KEEP IN MIND***
+Pay extra attention to using Fluture properly, where it benefits your project.
+
+***TECHNICAL REQUIREMENTS***
+* your application should be refactored to take advantage of Fluture **wherever possible**
+* loading and error states should be handled via Fluture
+* your application should contain a minimal amount of .css files - refactor to use styled-components instead
+* your application should take advantage of pipeline operator **wherever possible**
+* components and logic should aim to be reusable
+
+
+</details>
+
+
 # Assignment - React 1
 
 ***
