@@ -38,6 +38,8 @@ Please use the pipeline operator whenever possible
 - your application should provide autocompletion for gql calls based on the schema that was generated
 - your application should use `graphql-tag` for gql queries
 - please remove your fake API from the application
+- the details of player/team that were previously opened in a modal should now have separate pages parametrized by ID which will fetch that precise player/team
+- you should take advantage of pagination data provided by the API (if it does provide pagination data) 
 
 </details>
 
