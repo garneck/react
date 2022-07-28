@@ -1,14 +1,38 @@
+# Assignment - React 4
+
+***
+
+## Configuration steps
+No steps this time.
+
+## Assignment goal
+
+<details>
+The goal of this assignment is to get more familiar with efficiend code structurization via React hooks and HOCs, and learning some uses of refs.
+</details>
+
+## Formal requirements
+
+<details>
+
+* your data fetching logic should be contained within an appropriate hook
+* you should aim to implement a minimal number of generalized hooks to cover your needs
+* while loading a new page of data and while spinner is displayed, previous page data should still be displayed
+* above should be achieved via a custom hook that uses a ref for previous value - try to write it yourself, even though it most probably is readily available on the internet
+* Both data fetching and loading should be handled via a very general HOC that will supply every page
+* Your application should now have a "dark mode" (or a light mode, if it is already dark). This should be handled with styled components theming and via a custom hook. User should be able to switch between modes via a button in the header of the page. The value of current mode should be stored in local storage
+</details>
+
 # Assignment - React 3
 
----
+***
 
 ## Configuration steps
 
 <details>
 
-- Make a copy of your React 2 repository with review changes applied
-- Install Js GraphQL plugin for Webstorm
-
+Make a copy of your React 2 repository with review changes applied
+Install Js GraphQL plugin for Webstorm
 </details>
 
 ## Assignment goal
@@ -16,30 +40,30 @@
 <details>
 
 The goal of this assignment is to get familiar with GraphQL and further improvement of Fluture knowledge via integration with GraphQL, as well as the ability to resolve configuration tasks
-
 </details>
 
 ## Formal requirements
 
 <details>
 
-**_KEEP IN MIND_**
-Fluture should be used to wrap your GraphQL calls and async logic.
-Please use the pipeline operator whenever possible
+***KEEP IN MIND***
 
-**_TECHNICAL REQUIREMENTS_**
+Fluture should be used to wrap your GraphQL calls and async logic. Please use the pipeline operator whenever possible
 
-- your application should be refactored to take advantage of a real GraphQL API of your choice (example: https://beta.pokeapi.co/graphql/console/)
-- the general theme of your application can, but does not have to be changed - however, try to find a structure similar to players/teams
-- API calls should be wrapped in Futures sufficiently for reusability purposes
-- your application should have a schema.graphql file that contains the schema of the API you are using
-- schema mentioned above should be generated manually via `yarn generate-schema` command
-- `yarn generate-schema` should act according to a changable configuration
-- your application should provide autocompletion for gql calls based on the schema that was generated
-- your application should use `graphql-tag` for gql queries
-- please remove your fake API from the application
-- the details of player/team that were previously opened in a modal should now have separate pages parametrized by ID which will fetch that precise player/team
-- you should take advantage of pagination data provided by the API (if it does provide pagination data) 
+
+***TECHNICAL REQUIREMENTS***
+
+* your application should be refactored to take advantage of a real GraphQL API of your choice (example: https://beta.pokeapi.co/graphql/console/)
+* the general theme of your application can, but does not have to be changed - however, try to find a structure similar to players/teams
+* API calls should be wrapped in Futures sufficiently for reusability purposes
+* your application should have a schema.graphql file that contains the schema of the API you are using
+* schema mentioned above should be generated manually via yarn generate-schema command
+* yarn generate-schema should act according to a changable configuration
+* your application should provide autocompletion for gql calls based on the schema that was generated
+* your application should use graphql-tag for gql queries
+* please remove your fake API from the application
+* the details of player/team that were previously opened in a modal should now have separate pages parametrized by ID which will fetch that precise player/team
+* you should take advantage of pagination data provided by the API (if it does provide pagination data)
 
 </details>
 
@@ -79,7 +103,6 @@ Pay extra attention to using Fluture properly, where it benefits your project.
 
 
 </details>
-
 
 # Assignment - React 1
 
