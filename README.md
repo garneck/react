@@ -1,3 +1,25 @@
+# Assignment - React 5
+
+***
+
+## Configuration steps
+Add react-dnd and possible dependent packages to your project
+
+## Assignment goal
+
+<details>
+The goal of this assignment is to get familiar with libraries that enable more "visual" way of app interaction, such as react-dnd
+</details>
+
+## Formal requirements
+
+Keep in mind that CSS should be adjusted so that the app looks coherent.
+
+<details>
+* data lists should be reorderable via drag and drop
+* the "details" view should have all elements reorderable via drag and drop
+</details>
+
 # Assignment - React 4
 
 ***
