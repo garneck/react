@@ -16,6 +16,7 @@ The goal of this assignment is to get familiar with libraries that enable more "
 Keep in mind that CSS should be adjusted so that the app looks coherent.
 
 <details>
+ 
 * data lists should be reorderable via drag and drop
 * the "details" view should have all elements reorderable via drag and drop
 * OPTIONAL: make it so that other elements "make space" visually in a smooth manner for the one that you are dropping
