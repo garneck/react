@@ -22,6 +22,7 @@ The goal of this assignment is to get familiarized with print media query via a 
 * when printing a list item - no other elements should be visible
 * list item print should not print a "full page" version available via "details" button, just the one that exists in a list
 * printing should happen on a button click - for lists as well as list items
+* when submitting your project for review, please describe in 1-2 sentences your choice regarding solving this issue
 </details>
 
 # Assignment - React 5
