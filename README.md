@@ -20,6 +20,7 @@ The goal of this assignment is to get familiarized with print media query via a 
 * size and position of printed items should match the size of the page they will be printed on
 * when printing a list - no other elements should be visible
 * when printing a list item - no other elements should be visible
+* list item print should not print a "full page" version available via "details" button, just the one that exists in a list
 * printing should happen on a button click - for lists as well as list items
 </details>
 
